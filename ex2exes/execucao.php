@@ -51,7 +51,7 @@ do
         case 4:
             $exclui = readline("Qual elemento você deseja exluir?");
             $exclui--;
-            array_splice($pessoa[$exclui]);
+            array_splice($pessoa, $exclui, 1);
         break;
 
         default:
